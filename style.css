@@ -1,0 +1,213 @@
+/*
+Designed by Ryder Damen
+Niagara Open Data Day 2017
+ryderdamen.com
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+
+html {
+	overflow: hidden;
+	    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+body {
+	background-color: #B86BFF;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: center;	
+}
+
+p {
+		font-weight: 300;
+		font-size: 16px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+b {
+		font-weight: 500;	
+}
+
+h1 {
+		font-weight: 300;	
+		font-size: 40px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		
+	
+}
+
+h2 {
+		font-weight: 300;
+		font-size: 18px;	
+}
+
+h3 {
+	font-weight: 300;	
+}
+
+.header {
+z-index: 10;
+}
+
+.headerinner {
+	
+}
+
+.content {
+	
+}
+
+
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 80%;
+	width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: /*whatever width you want*/;
+    margin-bottom: 100px;
+}
+
+
+
+.footer {
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	background-color: transparent;
+	position: absolute;
+	text-align: center;
+}
+
+
+
+#checkagain {
+	border-width: 1px;
+	border-color: #fff;
+	border-style: solid;
+	padding: 10px;
+	width: 250px;
+	    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300; 
+}
+
+#checkagain:hover {
+	border-width: 1px;
+	border-color: #fff;
+	border-style: solid;
+	padding: 10px;
+	background-color: white;
+	color: #B86BFF;
+	text-decoration: none;
+}
+
+
+#mainbutton {
+	border-width: 1px;
+	border-color: #fff;
+	border-style: solid;
+	padding: 10px;
+	width: 500px;
+	    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300; 
+}
+
+#mainbutton:hover {
+	border-width: 1px;
+	border-color: #fff;
+	border-style: solid;
+	padding: 10px;
+	background-color: white;
+	color: #B86BFF;
+}
+
+#mainlink {
+	text-decoration: none;
+}
+
+.map {
+	z-index: -100;
+	width: 110%;
+	height: 110%;
+	position: fixed;
+	top: -5%;
+	left: -5%;
+	-webkit-filter: grayscale(100%) opacity(.2); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%) opacity(.2);
+
+
+}
+
+.mapcover {
+	width: 110%;
+	height: 110%;
+	position: absolute;
+	background-color: transparent;
+		top: -5%;
+	left: -5%;
+	z-index: -5;
+
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
