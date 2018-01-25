@@ -51,7 +51,7 @@ $winery = explode(",", $winery);
 
 
 	<div class='header'>
-	<p><a href='http://ryda.ca/niagarawine'>Home</a></p>
+	<p><a href='./index.html'>Home</a></p>
 	</div>	
 
 <div class='outer'>
