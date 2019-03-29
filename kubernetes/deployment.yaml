@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: wine-niagara
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: wine-niagara
+    spec:
+      containers:
+      - name: wine-niagara
+        image: gcr.io/radical-sloth/kuberl
+        ports:
+        - containerPort: 80

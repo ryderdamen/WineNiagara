@@ -9,3 +9,7 @@ run:
 .PHONY: push
 push:
 	docker push gcr.io/radical-sloth/wine-niagara
+
+.PHONY: deploy
+deploy:
+	kubectl apply -f kubernetes/deployment.yaml -f kubernetes/service.yaml
