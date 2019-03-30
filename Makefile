@@ -4,6 +4,7 @@ build:
 
 .PHONY: run
 run:
+	@echo "Exposing container locally on http://0.0.0.0:80"; \
 	docker run -p 80:80 gcr.io/radical-sloth/wine-niagara
 
 .PHONY: push
