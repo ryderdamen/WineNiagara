@@ -4,7 +4,7 @@ header('Cache-Control: no-cache');
 header('Pragma: no-cache');
 
 
-$lines = file("../wineries.csv");
+$lines = file("../assets/wineries.csv");
 $winery = $lines[array_rand($lines)];
 $winery = explode(",", $winery);
 $name = $winery[0];
@@ -32,8 +32,8 @@ $intro = "$intro[$i]";
 	<title>Niagara Local Wineries</title>
 	<meta name='description' content='A recommendation app for wineries in the Niagara Region'>
 	<meta name='author' content='Ryder Damen'>
-	<meta property='og:image' content='/facebook.png' />
-	<link rel='stylesheet' href='/style.css'>
+	<meta property='og:image' content='/assets/img/facebook.png' />
+	<link rel='stylesheet' href='/assets/css/style.css'>
 	<script src='https://use.fontawesome.com/90425e6b8a.js'></script>
 </head>
 <body>
