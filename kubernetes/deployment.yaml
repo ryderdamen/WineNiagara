@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
       - name: wine-niagara
-        image: gcr.io/radical-sloth/kuberl
+        image: gcr.io/radical-sloth/wine-niagara
         ports:
         - containerPort: 80

@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: wine-niagara-service
   labels:
-    app: wine-niagara-service
+    app: wine-niagara
 spec:
   ports:
     - port: 80
