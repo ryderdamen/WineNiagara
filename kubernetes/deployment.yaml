@@ -19,3 +19,7 @@ spec:
             port: 80
           initialDelaySeconds: 30
           periodSeconds: 60
+      tolerations:
+      - key: "preemptible"
+        operator: "Exists"
+        effect: "NoSchedule"
